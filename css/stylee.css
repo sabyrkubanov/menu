@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+button{
+    transition: .4s;
+}
+button:focus {
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    transform: scale(1.1);
+    color: white;
+}
+
+#header{
+    background: black;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-nav a{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-right: 45px;
+    cursor: pointer;
+}
+/*HEADER*/
+
+.header-input input{
+    background: black;
+    border-bottom: 2px solid  #FFFFFF;
+    color: #FFFFFF;
+   font-size: 10px;
+}
+.header-input ion-icon{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.header-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.header-input ion-icon{
+    position: absolute;
+    top:-10px;
+    left: 10px;
+}
+.icon-header ion-icon{
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+.hero-nav ion-icon{
+    margin-left: 10px;
+}
+
+/*HERO*/
+
+.hero-nav a{
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration-line: underline;
+    color: #AEAEAE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-nav{
+    padding: 55px 0;
+    display: flex;
+    align-items: center;
+}
+.hero-h2 h2{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+
+}
+.hero-right-input input{
+    width: 55px;
+    height: 55px;
+
+}
+.hero-right-input h5{
+    font-weight: 600;
+    font-size: 24px;
+    color: #FF9900;
+}
+.hero-right-input h6{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+}
+.hero-right-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
+.hero hr{
+
+    width: 370px;
+    height: 0px;
+    border: 1px solid #FF9900;
+    margin: 60px 40px ;
+}
+.hero-right-input h5 span{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+}
+.hero-btn button{
+    width: 345px;
+    height: 51px;
+    background: #FF9900;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 37px 0;
+
+}
+.hero-btn2 button{
+    width: 345px;
+    height: 51px;
+    border: 1px solid #FF9900;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FF9900;
+    margin: 0 0 35px 0;
+}
+.d1{
+    width: 375px;
+    height: 0px;
+    border: 1px solid #C4C4C4;
+}
+.ingri h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: #AEAEAE;
+    padding: 17px 0 27px 0;
+
+}
+.block p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C4C4C4;
+    margin-left: 10px;
+}
+.ingri{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 370px;
+
+}
+.hero-right{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-left p{
+    width: 509px;
+    height: 127px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+
+}
+.hero-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*FOOTER*/
+#footer{
+    background: black;
+}
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 33px 0 57px 0;
+
+}
+
+
+
+.footer-nav{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.footer-nav a{
+    padding: 11px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+.footer-adres p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+.footer-adres ion-icon{
+    color: #FFFFFF;
+    font-size: 30px ;
+}
+.footer-adres{
+    padding: 10px 0 0 0;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 210px;
+}
+.footer-icon{
+    padding: 10px 0 0 0;
+}
+.footer-icon a{
+    color: white;
+    font-size: 30px ;
+    margin-left: 40px;
+}
+.footer-icon p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 78px 0 0 0;
+
+
+}
+.footer-icon p ion-icon{
+    font-size: 25px;
+   margin-right: 10px;
+}
+
